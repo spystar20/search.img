@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-family: serif;
+  font-size: 3.5rem;
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  color: white;
+}
+form {
+  gap: 3%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 1% 15%;
+  position: relative;
+}
+input {
+    box-shadow: rgba(0, 0, 0, 45) 0px 25px 20px -20px ;
+  /* padding: 4% 11%; */
+  border-radius: 2rem;
+  width: 72%;
+  padding: 2% 2%;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+}
+input::placeholder {
+  font-size: 1rem;
+  text-align: left;
+  color: gray;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+input:focus {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.search {
+  cursor: pointer;
+  position: absolute;
+  right: 15%;
+  width: 3%;
+}
+.search:hover {
+  scale: 80%;
+  transition: scale 0.3s ease-in-out;
+}
+button {
+  top: 90%;
+  position: relative;
+  border-radius: 1rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 0.5% 1%;
+  font-size: 1.2rem;
+  width: 10%;
+  color: white;
+  background: #000;
+  border: none;
+  visibility: hidden;
+}
+.searchresult {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  margin: 7% auto;
+  gap: 1rem;
+  width: 95%;
+}
+.searchresult img {
+  border-radius: 1rem;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  margin-top: 10%;
+  overflow: hidden;
+}
+.searchresult img:hover {
+  scale: 103%;
+  transition: scale 0.1s ease-in;
+}
+.bg {
+  background-image: url(pngtree-a-lake-is-reflected-in-the-sky-and-surrounded-by-mountains-image_13126033.jpg);
+  background-size: 100% 172%;
+  height: 39vh;
+  width: 100%;
+  top: 0%;
+  position: absolute;
+}
+p {
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.black {
+  background-color: rgba(0, 0, 0, 0.167);
+  height: 39vh;
+  width: 100%;
+}
+.more {
+  margin: 10%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+@media (max-width: 800px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+text-align: center;
+    text-transform: capitalize;
+    font-family: serif;
+    font-size: 1.8rem;
+    margin-top: 11%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: white;
+  }
+  form {
+    gap: 3%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 97%;
+    margin: 7% auto;
+    position: relative;
+  }
+  input {
+    /* padding: 4% 11%; */
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 45) 0px 25px 20px -20px ;
+    width: 79%;
+    padding: 2% 2%;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+  }
+  input::placeholder {
+    font-size: 1rem;
+    text-align: left;
+    color: gray;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  input:focus {
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .search {
+    cursor: pointer;
+    position: absolute;
+    right: 13%;
+    width: 5%;
+  }
+  .search:hover {
+    scale: 80%;
+    transition: scale 0.3s ease-in-out;
+  }
+  button {
+    top: 90%;
+    position: relative;
+    border-radius: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 0.5% 1%;
+    font-size: 1.2rem;
+    width: 29%;
+    color: white;
+    background: #000;
+    border: none;
+    visibility: hidden;
+  }
+  .searchresult {
+    margin: 22% auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    gap: 1rem;
+    width: 95%;
+  }
+  .searchresult img {
+    border-radius: 1rem;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    margin-top: 10%;
+    overflow: hidden;
+  }
+  .searchresult img:hover {
+    scale: 103%;
+    transition: scale 0.1s ease-in;
+  }
+  .bg {
+    background-image: url(pngtree-a-lake-is-reflected-in-the-sky-and-surrounded-by-mountains-image_13126033.jpg);
+    background-size: 100% 172%;
+    height: 39vh;
+    width: 100%;
+    top: 0%;
+    position: absolute;
+  }
+  p {
+    margin-top: 4%;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .black {
+    background-color: rgba(0, 0, 0, 0.167);
+    height: 39vh;
+    width: 100%;
+  }
+  .more {
+    margin: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
